@@ -32,7 +32,7 @@ The characteristic polynomial `det(t^2 I-2tM-I)=t^4-2t^3-6t^2+2t+1` annihilates 
 lake env lean A192347.lean
 ```
 
-Check the final `#print axioms` output: it must not contain `sorryAx`. **The newly added A192347 theorems have not yet been compiled in the author's Colab session.** The underlying A192346 bridge was previously accepted; publication as a fully formal proof should await a successful run of this combined source.
+Check the final `#print axioms` output: it must not contain `sorryAx`. **The complete `A192347.lean` source was reported to compile successfully in Colab on November 23, 2026.** Its axiom reports contained no `sorryAx`; only standard Lean axioms were reported.
 
 The evaluation bridge characterizes the reduced polynomial in the quotient relation `X^2=X+1`; it does not invoke `Polynomial.modByMonic` directly.
 
@@ -40,4 +40,4 @@ The evaluation bridge characterizes the reduced polynomial in the quotient relat
 
 Sequence by Clark Kimberling. Recurrence conjectured by Colin Barker (January 17, 2013). Formal proof development prepared November 23, 2026 for Shreyas Samir Kolte. Related A192346 proof: https://github.com/highphysicist/oeis-A192346-proof .
 
-OEIS submission is pending removal of an accidental draft and completion of priority checks.
+OEIS editorial status should be checked against the live entry; GitHub publication and editorial approval are distinct.
